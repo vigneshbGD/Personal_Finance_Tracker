@@ -71,9 +71,10 @@ A sophisticated Python desktop application designed for personal financial manag
 
 ## 📸 Screenshots
 
-<div align="center">
+<div align="center"> 
 
 ### Main Interface
+<div align="left">
 🏦 Welcome to Personal Finance Tracker!
 Options:
 1. Add Income 
