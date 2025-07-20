@@ -1,268 +1,267 @@
-<div align="center">
 
 # 💰 Personal Finance Tracker
 
-**A Professional Python Application for Financial Management**
+<div align="center">
+  <strong>A Professional Python Application for Financial Management</strong><br><br>
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
-[![Portfolio](https://img.shields.io/badge/Portfolio-Project-orange.svg)]()
-
-*Comprehensive financial tracking with beautiful data visualizations and professional reporting*
-
-[View Demo](#-screenshots) • [Installation](#-installation) • [Features](#-features) • [Documentation](#-documentation)
+  ![Status](https://img.shields.io/badge/Status-Active-success)
+  ![Python](https://img.shields.io/badge/Made%20With-Python%203.7+-blue)
+  ![License](https://img.shields.io/badge/License-MIT-green)
+</div>
 
 ---
-
-</div>
 
 ## 🎯 Project Overview
 
-A sophisticated Python desktop application designed for personal financial management, featuring advanced data visualization, comprehensive reporting, and professional-grade code architecture. Built with modern Python libraries and following industry best practices.
-
-### 🎪 Live Demo
-
-> **Try it yourself:** Clone the repository and run `python src/main.py` to experience the full functionality
-
-## ⚡ Key Highlights
-
-- **📊 Advanced Data Visualization** - Interactive charts with matplotlib & seaborn
-- **💼 Professional Code Architecture** - Object-oriented design with modular structure  
-- **📈 Comprehensive Analytics** - Monthly trends, category analysis, and financial insights
-- **🔄 Data Persistence** - Robust CSV/Excel data handling with pandas
-- **🎨 User Experience** - Intuitive CLI interface with error handling
-- **📁 Export Capabilities** - Professional Excel reports with multiple sheets
-
-## 🏗️ Technical Stack
-
-<div align="center">
-
-| **Category** | **Technologies** |
-|-------------|-----------------|
-| **Language** | Python 3.7+ |
-| **Data Processing** | Pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn |
-| **File Handling** | OpenPyXL, CSV |
-| **Development** | OOP, Modular Design |
-| **Version Control** | Git, GitHub |
-
-</div>
-
-## 🚀 Features
-
-### 💸 **Core Functionality**
-- ✅ **Transaction Management** - Add, categorize, and track income/expenses
-- ✅ **Data Persistence** - Automatic CSV storage with backup
-- ✅ **Financial Analytics** - Real-time calculations and summaries
-- ✅ **Error Handling** - Robust input validation and exception management
-
-### 📊 **Data Visualization**
-- 🥧 **Expense Pie Charts** - Category-wise spending breakdown
-- 📈 **Trend Analysis** - Monthly income vs expense patterns  
-- 📊 **Financial Overview** - Professional bar chart summaries
-- 🎨 **Custom Styling** - Modern seaborn themes and color schemes
-
-### 📋 **Reporting & Export**
-- 📄 **Transaction History** - Formatted table displays
-- 📊 **Excel Export** - Multi-sheet professional reports
-- 💾 **Data Backup** - Automated CSV file management
-- 📈 **Visual Reports** - High-resolution chart exports
-
-## 📸 Screenshots
-
-<div align="center"> 
-
-### Main Interface
-<div align="left">
-🏦 Welcome to Personal Finance Tracker!<br>
-Options:<br>
-1. Add Income<br> 
-2. Add Expense<br>
-3. View Summary <br>
-4. View All Transactions<br>
-5. Generate Charts <br>
-6. Export to Excel<br>
-7. Exit<br>
-
-Enter your choice (1-7): _<br>
-
-
-### Financial Dashboard
-
-========================================
-FINANCIAL SUMMARY
-Total Income: ₹65,000.00
-Total Expenses: ₹18,000.00
-Net Balance: ₹47,000.00
-
-
-</div>
-
-## 🛠️ Installation
-
-### **Prerequisites**
-- Python 3.7 or higher
-- pip package manager
-- Virtual environment (recommended)
-
-### **Quick Start**
-
-1. Clone the repository
-git clone https://github.com/yourusername/finance-tracker.git
-cd finance-tracker
-
-2. Create virtual environment
-python -m venv finance_env
-
-3. Activate environment
-Windows:
-finance_env\Scripts\activate
-
-macOS/Linux:
-source finance_env/bin/activate
-
-4. Install dependencies
-pip install -r requirements.txt
-
-5. Run the application
-python src/main.py
-
-
-### **Dependencies**
-
-pandas>=1.3.0 # Data manipulation and analysis
-matplotlib>=3.4.0 # Core plotting functionality
-seaborn>=0.11.0 # Statistical data visualization
-openpyxl>=3.0.7 # Excel file operations
-
-
-## 📁 Project Architecture
-
-finance-tracker/<br>
-├── 📁 src/<br>
-│ ├── 🐍 main.py # Main application entry point<br>
-│ ├── 🎨 visualizer.py # Data visualization module<br>
-│ └── 📁 utils/<br>
-│ ├── init.py<br>
-│ └── data_handler.py # Data processing utilities<br>
-├── 📁 data/<br>
-│ └── transactions.csv # Transaction database<br>
-├── 📁 reports/ # Generated charts & Excel files<br>
-│ ├── expense_breakdown.png<br>
-│ ├── monthly_trend.png<br>
-│ └── financial_reports.xlsx<br>
-├── 📁 tests/ # Unit tests (expandable)<br>
-├── 📄 requirements.txt # Python dependencies<br>
-├── 📄 README.md # Project documentation<br>
-└── 📄 .gitignore # Version control exclusions<br>
-
-
-## 💻 Code Quality & Best Practices
-
-### **Object-Oriented Design**
-- Clean class structure with single responsibility principle
-- Modular architecture for maintainability and scalability
-- Professional docstrings and code documentation
-
-### **Error Handling**
-- Comprehensive exception management
-- Input validation and sanitization
-- Graceful error recovery mechanisms
-
-### **Data Management**
-- Efficient pandas operations for large datasets
-- Automatic backup and data integrity checks
-- Professional CSV/Excel file handling
-
-## 📊 Usage Examples
-
-### **Adding Transactions**
-
-Add Income
-tracker.add_transaction("Salary", 50000, "Income", "Monthly salary")
-
-Add Expense
-tracker.add_transaction("Food", 5000, "Expense", "Groceries and dining")
-
-
-### **Generating Visualizations**
-
-visualizer = FinanceVisualizer(transactions_data)
-visualizer.create_expense_pie_chart() # Category breakdown
-visualizer.create_monthly_trend() # Time series analysis
-visualizer.create_balance_chart() # Financial overview
-
-
-## 🎯 Professional Insights
-
-### **Technical Skills Demonstrated**
-- **Data Analysis** - Pandas operations, statistical calculations
-- **Visualization** - Matplotlib/Seaborn chart creation
-- **Software Architecture** - OOP design patterns, modular code
-- **File I/O Operations** - CSV/Excel handling, data persistence
-- **User Experience** - CLI design, error handling, input validation
-
-### **Industry Applications**
-- Personal financial management systems
-- Business expense tracking solutions
-- Data analysis and reporting tools
-- Desktop application development
-
-## 🚀 Future Roadmap
-
-<div align="center">
-
-| **Phase** | **Enhancement** | **Technology** |
-|-----------|----------------|----------------|
-| 🌐 **Phase 1** | Web Interface | Streamlit, Flask |
-| 🤖 **Phase 2** | ML Predictions | Scikit-learn |
-| ☁️ **Phase 3** | Cloud Integration | AWS, Database |
-| 📱 **Phase 4** | Mobile App | React Native |
-
-</div>
-
-## 🤝 Contributing
-
-Contributions are welcome! This project follows professional development standards:
-
-1. Fork the repository
-
-2. Create feature branch: git checkout -b feature/AmazingFeature
-
-3. Commit changes: git commit -m 'Add AmazingFeature'
-
-4. Push to branch: git push origin feature/AmazingFeature
-
-5. Submit Pull Request
-
-
-## 📈 Performance & Scalability
-
-- **Efficient Data Processing** - Optimized pandas operations
-- **Memory Management** - Proper resource handling
-- **Scalable Architecture** - Modular design for feature expansion
-- **Professional Standards** - PEP 8 compliance, comprehensive documentation
+**Personal Finance Tracker** is a sophisticated Python-based desktop application designed to manage your income, expenses, and financial insights effectively. It features advanced data visualization, professional-grade reporting, and follows best practices in software architecture.
 
 ---
 
-<div align="center">
+## ⚡ Key Highlights
+
+- 📊 **Advanced Visualization** – Interactive charts with `matplotlib` and `seaborn`
+- 💼 **Professional Code Architecture** – Modular, object-oriented design
+- 📈 **Analytics Dashboard** – Monthly trends and category-wise breakdown
+- 🔄 **Data Persistence** – Robust CSV/Excel data handling with `pandas`
+- 🎨 **Intuitive CLI UX** – User-friendly CLI interface with error handling
+- 📁 **Export Reports** – Generate professional Excel files with charts
+
+---
+
+## 🏗️ Technical Stack
+
+| Category         | Technologies                          |
+|------------------|----------------------------------------|
+| Language         | Python 3.7+                            |
+| Data Processing  | pandas, NumPy                          |
+| Visualization    | matplotlib, seaborn                    |
+| File Handling    | openpyxl, CSV                          |
+| Development      | OOP, Modular Design                    |
+| Version Control  | Git, GitHub                            |
+
+---
+
+## 🚀 Features
+
+### 💸 Core Functionality
+
+- ✅ **Transaction Management** – Add, categorize, and track income/expenses
+- ✅ **Data Persistence** – Auto-saving to CSV with backup support
+- ✅ **Real-time Calculations** – Summarize income, expenses, balance
+- ✅ **Robust Error Handling** – Input validation and exception management
+
+### 📊 Data Visualization
+
+- 🥧 **Expense Pie Chart** – Visual breakdown of spending categories
+- 📈 **Trend Analysis** – Monthly income vs. expense patterns
+- 📊 **Financial Overview** – Bar charts for quick financial summaries
+- 🎨 **Seaborn Themes** – Aesthetically styled charts
+
+### 📋 Reporting & Export
+
+- 📄 **Transaction Logs** – Formatted CLI table views
+- 📊 **Excel Reports** – Multi-sheet exports with high-resolution graphs
+- 💾 **Auto Backup** – Transaction history backup support
+- 📈 **Chart Export** – Save visual reports as image files
+
+---
+
+## 📸 Screenshots
+
+### Main Interface
+```
+🏦 Welcome to Personal Finance Tracker!
+==================================================
+
+Options:
+1. Add Income          2. Add Expense
+3. View Summary        4. View All Transactions  
+5. Generate Charts     6. Export to Excel
+7. Exit
+
+Enter your choice (1-7): _
+```
+
+### Financial Dashboard
+```
+========================================
+         FINANCIAL SUMMARY
+========================================
+Total Income:   ₹65,000.00
+Total Expenses: ₹18,000.00
+Net Balance:    ₹47,000.00
+========================================
+```
+
+---
+
+## 🛠️ Installation
+
+### Prerequisites
+
+- Python 3.7 or higher
+- `pip` package manager
+- Virtual environment (recommended)
+
+### Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/finance-tracker.git
+cd finance-tracker
+
+# 2. Create virtual environment
+python -m venv finance_env
+
+# 3. Activate environment
+# Windows:
+finance_env\Scripts\activate
+# macOS/Linux:
+source finance_env/bin/activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Run the application
+python src/main.py
+```
+
+---
+
+## 📦 Dependencies
+
+```
+pandas>=1.3.0          # Data manipulation and analysis
+matplotlib>=3.4.0      # Core plotting functionality
+seaborn>=0.11.0        # Statistical data visualization
+openpyxl>=3.0.7        # Excel file operations
+```
+
+---
+
+## 📁 Project Structure
+
+```
+finance-tracker/
+├── src/
+│   ├── main.py              # Main application entry point
+│   ├── visualizer.py        # Data visualization module
+│   └── utils/
+│       ├── __init__.py
+│       └── data_handler.py  # Data processing utilities
+├── data/
+│   └── transactions.csv     # Transaction database
+├── reports/                 # Generated charts & Excel files
+│   ├── expense_breakdown.png
+│   ├── monthly_trend.png
+│   └── financial_reports.xlsx
+├── tests/                   # Unit tests (optional)
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+└── .gitignore               # Version control exclusions
+```
+
+---
+
+## 💻 Code Quality & Best Practices
+
+- ✅ **Object-Oriented Design** – Follows single responsibility principle
+- ✅ **Modular Architecture** – Easy to scale and maintain
+- ✅ **Docstrings & Comments** – Clean and descriptive documentation
+- ✅ **Error Handling** – Covers input validation, exceptions, recovery
+- ✅ **Efficient Pandas Usage** – Handles large datasets smoothly
+
+---
+
+## 🧪 Usage Examples
+
+```python
+# Add Transactions
+tracker.add_transaction("Salary", 50000, "Income", "Monthly salary")
+tracker.add_transaction("Groceries", 5000, "Expense", "Food and supplies")
+
+# Generate Charts
+visualizer = FinanceVisualizer(transactions_data)
+visualizer.create_expense_pie_chart()
+visualizer.create_monthly_trend()
+visualizer.create_balance_chart()
+```
+
+---
+
+## 🎯 Professional Insights
+
+### 🔧 Technical Skills Demonstrated
+
+- Data Analysis – Aggregations, trend tracking with pandas
+- Data Visualization – Aesthetic plots with matplotlib/seaborn
+- File I/O – Robust CSV/Excel export and import
+- OOP Design – Scalable, clean architecture
+- CLI UX – Smooth and intuitive user interface
+
+### 💼 Real-World Applications
+
+- Personal finance tracking
+- Business expense monitoring
+- Accounting data reporting systems
+- Desktop finance management tools
+
+---
+
+## 🔭 Future Roadmap
+
+| Phase     | Enhancement         | Technology         |
+|-----------|---------------------|--------------------|
+| Phase 1   | Web Interface        | Streamlit, Flask   |
+| Phase 2   | ML-based Predictions | Scikit-learn       |
+| Phase 3   | Cloud Integration    | AWS, SQL/NoSQL DB  |
+| Phase 4   | Mobile App           | React Native       |
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Follow these steps:
+
+1. Fork the repo
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Make changes and commit:
+   ```bash
+   git commit -m 'Add AmazingFeature'
+   ```
+4. Push changes:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
+
+---
+
+## 📈 Performance & Scalability
+
+- 🔁 Efficient data pipelines with pandas
+- ♻️ Memory-conscious resource handling
+- 🧱 Scalable design for adding future features
+- 🧼 Codebase follows PEP 8 and software best practices
+
+---
 
 ## 👨‍💻 Developer
 
 **[Your Name]**  
-*Python Developer | Data Analyst | Software Engineer*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/yourusername)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:your.email@example.com)
-
-### 🌟 **If this project helped you, please give it a ⭐ on GitHub!**
-
-*Built with ❤️ using Python*
+Python Developer | Data Analyst | Software Engineer  
+📍 Tamil Nadu, India  
+📫 [LinkedIn](https://www.linkedin.com/in/yourusername) | [GitHub](https://github.com/yourusername)
 
 ---
 
-**💼 Available for Python Development Opportunities**
+## 🌟 Show Your Support
 
-</div>
+If this project helped you, give it a ⭐ on GitHub and share with your peers!
+
+---
+
+> Built with ❤️ using Python.
