@@ -76,14 +76,13 @@ A sophisticated Python desktop application designed for personal financial manag
 ### Main Interface
 🏦 Welcome to Personal Finance Tracker!
 Options:
-
-Add Income 2. Add Expense
-
-View Summary 4. View All Transactions
-
-Generate Charts 6. Export to Excel
-
-Exit
+1. Add Income 
+2. Add Expense
+3. View Summary 
+4. View All Transactions
+5. Generate Charts 
+6. Export to Excel
+7. Exit
 
 Enter your choice (1-7): _
 
@@ -139,23 +138,23 @@ openpyxl>=3.0.7 # Excel file operations
 
 ## 📁 Project Architecture
 
-finance-tracker/
-├── 📁 src/
-│ ├── 🐍 main.py # Main application entry point
-│ ├── 🎨 visualizer.py # Data visualization module
-│ └── 📁 utils/
-│ ├── init.py
-│ └── data_handler.py # Data processing utilities
-├── 📁 data/
-│ └── transactions.csv # Transaction database
-├── 📁 reports/ # Generated charts & Excel files
-│ ├── expense_breakdown.png
-│ ├── monthly_trend.png
-│ └── financial_reports.xlsx
-├── 📁 tests/ # Unit tests (expandable)
-├── 📄 requirements.txt # Python dependencies
-├── 📄 README.md # Project documentation
-└── 📄 .gitignore # Version control exclusions
+finance-tracker/<br>
+├── 📁 src/<br>
+│ ├── 🐍 main.py # Main application entry point<br>
+│ ├── 🎨 visualizer.py # Data visualization module<br>
+│ └── 📁 utils/<br>
+│ ├── init.py<br>
+│ └── data_handler.py # Data processing utilities<br>
+├── 📁 data/<br>
+│ └── transactions.csv # Transaction database<br>
+├── 📁 reports/ # Generated charts & Excel files<br>
+│ ├── expense_breakdown.png<br>
+│ ├── monthly_trend.png<br>
+│ └── financial_reports.xlsx<br>
+├── 📁 tests/ # Unit tests (expandable)<br>
+├── 📄 requirements.txt # Python dependencies<br>
+├── 📄 README.md # Project documentation<br>
+└── 📄 .gitignore # Version control exclusions<br>
 
 
 ## 💻 Code Quality & Best Practices
