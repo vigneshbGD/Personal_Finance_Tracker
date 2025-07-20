@@ -75,17 +75,17 @@ A sophisticated Python desktop application designed for personal financial manag
 
 ### Main Interface
 <div align="left">
-🏦 Welcome to Personal Finance Tracker!
-Options:
-1. Add Income 
-2. Add Expense
-3. View Summary 
-4. View All Transactions
-5. Generate Charts 
-6. Export to Excel
-7. Exit
+🏦 Welcome to Personal Finance Tracker!<br>
+Options:<br>
+1. Add Income<br> 
+2. Add Expense<br>
+3. View Summary <br>
+4. View All Transactions<br>
+5. Generate Charts <br>
+6. Export to Excel<br>
+7. Exit<br>
 
-Enter your choice (1-7): _
+Enter your choice (1-7): _<br>
 
 
 ### Financial Dashboard
