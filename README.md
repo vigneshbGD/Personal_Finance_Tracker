@@ -251,10 +251,10 @@ We welcome contributions! Follow these steps:
 
 ## 👨‍💻 Developer
 
-**[Your Name]**  
-Python Developer | Data Analyst | Software Engineer  
+**Vignesh Balasubramanian**  
+Python Developer | SQL Developer | Devops Engineer  | Fresher
 📍 Tamil Nadu, India  
-📫 [LinkedIn](https://www.linkedin.com/in/yourusername) | [GitHub](https://github.com/yourusername)
+📫 [LinkedIn](www.linkedin.com/in/vignesh-b-675768288) | [GitHub](https://github.com/vigneshbGD)
 
 ---
 
